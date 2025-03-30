@@ -1,0 +1,111 @@
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    }
+    
+body{
+    margin: 10px 0 ;
+    background-color: rgb(235, 225, 211);
+}
+
+h2{
+    text-align: center;
+    border-bottom: solid 2px rgb(219, 206, 206);
+}
+
+header,
+main,
+footer{
+
+    /* width: em; */
+    margin: 0 auto;
+}
+
+header{
+    position: relative;
+    height: 7em;
+    background-image : url(../img/nasa.png);
+    background-size: 100px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color:black;
+    margin-bottom: 2%;
+    border-bottom:solid 5px white ;
+    margin-top: -10px;
+    
+}
+
+#header_title{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: rgb(170, 161, 161);
+;
+    
+}
+
+#header_parragraph{
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    color: rgb(170, 161, 161);
+}
+
+
+main img{
+    width: 20em;
+    margin:0 0 2em 5em;
+    float: left;
+}
+
+main img{
+    width: 100px;
+    height: 100px;
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-left: 35px;
+    align-content: center;
+    margin-right: 80px;
+    margin-right: solid 5px white;
+
+}
+
+
+main p{
+    margin-top: 20px;
+    margin: 5% -1% -5% 1%;
+    
+
+}
+
+main div{
+    display: inline-block;
+   
+    justify-content: center;
+    align-content: center ;
+    align-items: center;
+    
+}
+
+.astro-descripcion{
+    /* float: left; */
+    height: 25vh;
+    margin-top: 60px;
+    margin-left: px;}
+
+    .astro-descripcion{
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+                
+footer{
+    text-align: center;
+    background-color: black;
+    color: rgb(170, 161, 161);
+    padding: 0.5%;
+    margin-bottom: -10px;
+}
+                
